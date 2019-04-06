@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="25dp">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:inputType="number"
+            android:id="@+id/moneyTransferForAccountDetails"
+            android:layout_height="wrap_content"
+            android:hint="Money deposite" />
+    </android.support.design.widget.TextInputLayout>
+
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:hint="Bank Name"
+        android:id="@+id/autoComplete"
+        android:completionThreshold="1"
+        />
+
+
+    <EditText
+        android:id="@+id/descriptionForAccountDetails"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top|left"
+        android:hint="Description"
+        android:layout_marginTop="120dp"
+        android:inputType="textEmailAddress|textMultiLine"
+        android:lines="20"
+        android:minLines="5"
+        android:scrollHorizontally="false"
+        android:scrollbars="vertical" />
+</RelativeLayout>

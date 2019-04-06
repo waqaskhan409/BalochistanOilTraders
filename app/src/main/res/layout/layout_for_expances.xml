@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="15dp" android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:textSize="21sp"
+        android:layout_centerHorizontal="true"
+
+        />
+
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/date"
+        android:completionThreshold="1"
+        android:id="@+id/autoComplete"
+        android:hint="Party Name"/>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_below="@+id/date"
+        android:layout_marginTop="55dp"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:id="@+id/moneySpend"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="How Much Money" />
+    </android.support.design.widget.TextInputLayout>
+    <EditText
+        android:layout_width="fill_parent"
+        android:id="@+id/description"
+        android:layout_height="wrap_content"
+        android:gravity="top|left"
+        android:hint="Description"
+        android:layout_below="@+id/date"
+        android:layout_marginTop="120dp"
+        android:inputType="textEmailAddress|textMultiLine"
+        android:lines="20"
+        android:minLines="5"
+        android:scrollHorizontally="false"
+        android:scrollbars="vertical" />
+</RelativeLayout>

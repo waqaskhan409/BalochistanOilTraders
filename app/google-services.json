@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "248455267944",
+    "firebase_url": "https://balochistanoiltraders-31f16.firebaseio.com",
+    "project_id": "balochistanoiltraders-31f16",
+    "storage_bucket": "balochistanoiltraders-31f16.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:248455267944:android:14b97b40d29e91fd",
+        "android_client_info": {
+          "package_name": "com.example.balochistanoiltraders"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "248455267944-2rp793vobuj866nvc80597ibqr8d5cad.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.balochistanoiltraders",
+            "certificate_hash": "1c5415df916f4f578e5d707704c058073f068760"
+          }
+        },
+        {
+          "client_id": "248455267944-0svf8vdef02k0l8eseq5nufqaa35v7lb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtG-tGiUd8aoqpiAcSQ0DL6f1NOFmJLr4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "248455267944-0svf8vdef02k0l8eseq5nufqaa35v7lb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

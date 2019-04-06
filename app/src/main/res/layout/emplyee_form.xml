@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="25dp">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:id="@+id/employeeNameForEmployee"
+            android:layout_height="wrap_content"
+            android:hint="Employee Name" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="60dp"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:inputType="number"
+            android:id="@+id/employeePhoneNumberForEmployee"
+            android:layout_height="wrap_content"
+            android:hint="Phone Number" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="120dp"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:id="@+id/jobDescriptionForEmployee"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="Sallery" />
+    </android.support.design.widget.TextInputLayout>
+    <EditText
+        android:layout_width="fill_parent"
+        android:id="@+id/addressForEmployee"
+        android:layout_height="wrap_content"
+        android:gravity="top|left"
+        android:hint="Address"
+        android:layout_marginTop="180dp"
+        android:inputType="textEmailAddress|textMultiLine"
+        android:lines="20"
+        android:minLines="5"
+        android:scrollHorizontally="false"
+        android:scrollbars="vertical" />
+</RelativeLayout>

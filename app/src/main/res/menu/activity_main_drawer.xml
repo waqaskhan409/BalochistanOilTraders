@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/list"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="Cash Borrow" />
+        <item
+            android:id="@+id/account"
+            android:icon="@android:drawable/ic_menu_compass"
+            android:title="Account" />
+        <item
+            android:id="@+id/employees"
+            android:icon="@android:drawable/ic_menu_view"
+            android:title="Employees" />
+        <!--<item-->
+            <!--android:id="@+id/expance"-->
+            <!--android:icon="@android:drawable/sym_action_chat"-->
+            <!--android:title="Expences" />-->
+        <item
+            android:id="@+id/depreciations"
+            android:icon="@android:drawable/ic_dialog_dialer"
+            android:title="Depreciations" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/about"
+                android:icon="@android:drawable/star_big_off"
+                android:title="About" />
+            <item
+                android:id="@+id/logout"
+                android:icon="@android:drawable/ic_lock_idle_lock"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

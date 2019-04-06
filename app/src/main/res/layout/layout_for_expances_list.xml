@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/tools"
+    android:layout_marginBottom="-4dp"
+
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    card_view:cardPreventCornerOverlap="true"
+    card_view:cardUseCompatPadding="true"
+    card_view:cardCornerRadius="0dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+   <RelativeLayout
+        android:padding="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+       <TextView
+          android:layout_marginTop="10dp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_centerHorizontal="true"
+           android:layout_below="@+id/spend"
+           android:layout_alignParentRight="true"
+           android:text="Date"
+           android:textColor="#000"
+           app:gravity="center"
+           android:id="@+id/head"
+           android:textSize="18sp"
+           />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="H"
+            android:textSize="20sp"
+            android:background="@drawable/circular_text_view"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:id="@+id/chracterName" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/chracterName"
+            android:textColor="#000"
+            android:id="@+id/name"
+            android:textSize="18sp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Money Spend"
+            android:layout_marginLeft="20dp"
+            android:layout_alignParentRight="true"
+            android:id="@+id/spend"
+            android:textSize="15sp"
+            android:textColor="@color/colorPrimary"
+            />
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Money Spend"
+        android:layout_toRightOf="@+id/chracterName"
+        android:id="@+id/description"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="32dp"
+        android:textSize="16sp"
+        />
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

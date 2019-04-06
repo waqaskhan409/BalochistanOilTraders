@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="-4dp"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    card_view:cardPreventCornerOverlap="true"
+    card_view:cardUseCompatPadding="true"
+    card_view:cardCornerRadius="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="H"
+            android:textSize="20sp"
+            android:background="@drawable/circular_text_view"
+            android:textColor="@android:color/white"
+            android:gravity="center"
+            android:id="@+id/chracterName" />
+        <TextView
+            android:id="@+id/partyNameEachItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/chracterName"
+            android:text="Party Name"
+            android:textColor="#000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/brandnameEachList"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_toRightOf="@+id/chracterName"
+            android:layout_height="wrap_content"
+            android:paddingTop="6dp"
+            android:layout_below="@+id/partyNameEachItem"
+            android:text="Brand Name"
+            android:textSize="15sp" />
+
+
+
+        <TextView
+            android:id="@+id/QuantityEachList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="Quantity"
+            android:textColor="@color/colorPrimary"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/concessionEachList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="6dp"
+android:layout_below="@+id/QuantityEachList"            android:layout_marginRight="0dp"
+            android:text="Total Money"
+            android:textSize="15sp" />
+
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

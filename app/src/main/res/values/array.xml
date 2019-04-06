@@ -1,0 +1,17 @@
+<resources>
+    <array name="colorasada">
+        <item>FF007F</item>
+        <item>FF0000</item>
+        <item>FF7F00</item>
+        <item>FFFF00</item>
+        <item>7FFF00</item>
+        <item>00FF00</item>
+        <item>00FF7F</item>
+        <item>00FFFF</item>
+        <item>FF007F</item>
+        <item>0000FF</item>
+        <item>7F00FF</item>
+        <item>FF007F</item>
+        <item>FF00FF</item>
+    </array>
+</resources>

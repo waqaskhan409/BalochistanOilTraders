@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="name" />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_below="@+id/name"
+            android:id="@+id/loan"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="How Much Money" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_below="@+id/loan"
+            android:gravity="top"
+            android:id="@+id/description"
+            android:layout_height="200dp">
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:hint="description"
+                android:id="@+id/businessDescriptionForAccounts"
+                android:gravity="top|left"
+                android:layout_marginTop="180dp"
+                android:inputType="textEmailAddress|textMultiLine"
+                android:lines="20"
+                android:minLines="5"
+                android:scrollHorizontally="false"
+                android:scrollbars="vertical" />
+        </android.support.design.widget.TextInputLayout>
+
+    </RelativeLayout>
+</RelativeLayout>

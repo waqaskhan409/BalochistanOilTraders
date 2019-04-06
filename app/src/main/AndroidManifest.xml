@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.balochistanoiltraders">
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo_bot"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo_bot"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".CashBorrowed"
+            android:label="@string/title_activity_cash_borrowed"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DepreciationDetails"
+            android:label="@string/title_activity_depreciation_details"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ExpanceDetails"
+            android:label="@string/title_activity_expance_details"
+            android:parentActivityName=".CashBorrowed"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AccountPurchses"
+            android:label="@string/title_activity_account_purchses"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".DepositeAndPayementDetail"
+            android:label="@string/title_activity_scrolling"
+            android:parentActivityName=".CashBorrowed"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EmployeeDetails"
+            android:label="@string/title_activity_employee_details"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AccountDetail"
+            android:label="@string/title_activity_account_detail"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".EachListItemDetail"
+            android:label="@string/title_activity_each_list_item_detail"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FormForListActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".UserListActivity"
+            android:label="@string/title_user_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".UserDetailActivity"
+            android:label="@string/title_user_detail"
+            android:parentActivityName=".UserListActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.balochistanoiltraders.UserListActivity" />
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login" />
+        <activity
+            android:name=".SplashS"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

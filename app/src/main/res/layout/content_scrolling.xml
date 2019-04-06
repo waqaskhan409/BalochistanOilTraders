@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".DepositeAndPayementDetail"
+    tools:showIn="@layout/activity_scrolling">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date"
+            android:textSize="21sp"
+            android:layout_centerHorizontal="true"
+
+            />
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_below="@+id/date"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:enabled="false"
+                android:inputType="number"
+
+                android:id="@+id/moneyTransferForAccountDetails"
+                android:layout_height="wrap_content"
+                android:hint="Money Tranfer" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_below="@+id/date"
+            android:layout_marginTop="50dp"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputEditText
+                android:enabled="false"
+                android:layout_width="match_parent"
+                android:id="@+id/bankNameForAccountDetails"
+                android:layout_height="wrap_content"
+                android:hint="Bank Name" />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <EditText
+            android:id="@+id/descriptionForAccountDetails"
+            android:layout_below="@+id/date"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="top|left"
+            android:hint="Description"
+            android:layout_marginTop="120dp"
+            android:inputType="textEmailAddress|textMultiLine"
+            android:lines="20"
+            android:enabled="false"
+            android:minLines="5"
+            android:scrollHorizontally="false"
+            android:scrollbars="vertical" />
+    </RelativeLayout>
+</android.support.v4.widget.NestedScrollView>
